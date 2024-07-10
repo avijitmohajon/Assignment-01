@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* common style */
+
+.azeret-mono{
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+ .dark{
+    color: #0D1321;
+  }
+
+  /* Nav Bar Design */
+nav{
+    display: flex;
+    padding: 50px 150px 48px 150px;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .nav-title{
+    font-size: 28px;
+}
+
+.nav-btn{
+    font-size: 20px;
+    padding: 17px 24px;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+/* Hero Section */
+
+.hero-section{
+    background-image: url('../assets/Hero-bg.png');
+    display: flex;
+}
+
+.profile{
+    /* padding: 26px 220px 45px 220px; */
+    margin: 45px auto;
+    align-items: center;
+    justify-content:center ;
+}
+
+ .profile-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+.profile-info{
+     /* align-items: center;
+    justify-content: center;  */
+}
+
+.profile-title{
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 32px;
+}
+
+.profile-description{
+    font-size: 16px;
+    opacity: 70%;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 32px;
+}
+
+.P-btn-full{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-btn{
+   font-size: 20px;
+   font-weight: 600;
+   color: white;
+   background-color: black;
+   padding: 21px 24px;
+   margin-top: 32px;
+   border-radius: 8px;
+    align-items: center;
+    
+}
+
