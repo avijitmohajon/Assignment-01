@@ -352,7 +352,7 @@ fs{
     justify-content: center;
 }
 .footer-sec{
-   
+
     width: 1280px;
     height: 315px;
     background-image: url(../assets/handshake.jpg);
@@ -368,5 +368,15 @@ fs{
 }
 .Contact p{
     font-size: 20px;
+
+}
+.entry{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
+}
+input{
+    padding: 20px;
+
 }
