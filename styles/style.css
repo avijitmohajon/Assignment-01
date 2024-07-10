@@ -20,6 +20,10 @@
     font-weight: 600;
     opacity: 80%;
 }
+.btn-link{
+    text-decoration: none;
+    color: black;
+}
 
   /* Nav Bar Design */
 nav{
@@ -98,7 +102,7 @@ nav .nav-title{
 .container{
     margin: 70px 148px 90px 152px;
     padding: 80px 97px;
-    background-color: #FAFAFB;
+    background-color: #f4f4fd;
 }
 .card-holder{
     
@@ -192,3 +196,177 @@ nav .nav-title{
 
 }
 
+/* youtube section */
+
+.youtube-sec{
+    margin: 70px 148px 90px 152px;
+    padding: 90px 90px;
+}
+
+.yt-title h1 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bolder;
+    margin-bottom: 24px;
+
+}
+.yt-title p{
+
+    text-align: center;
+    font-size: 16px;
+      
+}
+.yt-title{
+    margin-bottom: 48px;
+}
+
+.yt-border{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+iframe{
+    border: 1px solid rgba(13, 19, 33, 0.3);
+    padding: 50px;
+    border-radius: 16px;
+    
+     
+}
+
+    /* programming part */
+
+.programming{
+    margin: 70px 148px 90px 152px;
+    padding: 90px 90px;
+    
+}
+
+.p-info h1 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bolder;
+    margin-bottom: 24px;
+
+}
+.p-gateway{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    
+    
+}
+
+.p-info p{
+    text-align: center;
+    font-size: 16px;
+}
+
+.html{
+    background-color: #FFF6F4;
+    padding: 40px;
+    margin: 24px;
+    height: 250px;
+    width: 360px;
+}
+.html img{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+    
+}
+.html h2{
+    text-align: justify;
+    margin-bottom: 10px;
+    
+}
+.html p{
+    font-size: 16px;
+    opacity: 80%;
+    margin-bottom: 10px;
+
+}
+.html a{
+    color: #0D1321;
+
+}
+
+.css{
+    background-color: #F2F6FE ;
+    padding: 40px;
+    margin: 24px;
+    height: 250px;
+    width: 360px;
+}
+.css img{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+    
+}
+.css h2{
+    text-align: justify;
+    margin-bottom: 10px;
+
+}
+.css p{
+    font-size: 16px;
+    opacity: 80%;
+    margin-bottom: 10px;
+}
+
+.css a{
+    color: #0D1321;
+}
+.js{
+    background-color: #fffade  ;
+    padding: 40px;
+    margin: 24px;
+    height: 250px;
+    width: 360px;
+}
+.js img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+    
+}
+.js h2{
+    text-align: justify;
+    margin-bottom: 10px;
+
+}
+.js p{
+    font-size: 16px;
+    opacity: 80%;
+    margin-bottom: 10px;
+}
+
+.js a{
+    color: #0D1321; 
+}
+
+fs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-sec{
+   
+    width: 1280px;
+    height: 315px;
+    background-image: url(../assets/handshake.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 50px ;
+
+}
+.Contact{
+    display: flex;
+    justify-content: space-between;
+    margin: 70px;
+}
+.Contact p{
+    font-size: 20px;
+    
+}
