@@ -14,6 +14,12 @@
  .dark{
     color: #0D1321;
   }
+  .card-btn{
+    padding: 10.5px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    opacity: 80%;
+}
 
   /* Nav Bar Design */
 nav{
@@ -53,21 +59,16 @@ nav .nav-title{
     justify-content: center;  
 }
 
-.profile-info{
-     /* align-items: center;
-    justify-content: center;  */
-}
-
 .profile-title{
     font-size: 40px;
-    font-weight: 600;
+    font-weight: bolder;
     text-align: center;
     margin-top: 32px;
 }
 
 .profile-description{
     font-size: 16px;
-    opacity: 70%;
+    opacity: 80%;
     text-transform: capitalize;
     text-align: center;
     margin-top: 32px;
@@ -88,6 +89,106 @@ nav .nav-title{
    margin-top: 32px;
    border-radius: 8px;
     align-items: center;
+    text-transform: capitalize;
     
+}
+
+/* Main content */
+
+.container{
+    margin: 70px 148px 90px 152px;
+    padding: 80px 97px;
+    background-color: #FAFAFB;
+}
+.card-holder{
+    
+}
+
+.heading-title{
+    text-align: center;
+    font-size: 32px;
+    font-weight: bolder;
+    margin-bottom: 24px;
+}
+.heading-description{
+    text-align: center;
+    font-size: 16px;
+    text-transform: capitalize;
+    opacity: 80%;
+}
+
+        /* card 01 */
+.card1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 48px;
+    margin-top: 48px;
+}
+.card1-title{
+    margin-bottom: 16px;
+    line-height: 36px;
+    opacity: 80%;
+}
+.card1-description{
+    font-size: 16px;
+    opacity: 80%;
+    margin-bottom: 32px;
+    line-height: 26px;
+
+}
+        /* Card 02 */
+
+.card2{
+    display:flex;
+    justify-content:left;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 48px;
+    margin-top: 48px;
+    
+}
+.card2-img{
+
+    margin-right: 30px;
+}
+.card2-title{
+    margin-bottom: 16px;
+    line-height: 36px;
+    opacity: 80%;
+}
+.card2-description{
+    font-size: 16px;
+    opacity: 80%;
+    margin-bottom: 32px;
+    line-height: 26px;
+
+}
+
+        /* Card 03 */
+
+.card3{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 48px;
+    margin-top: 48px;
+}
+.card3-title{
+    margin-bottom: 16px;
+    line-height: 36px;
+    opacity: 80%;
+}
+.card3-description{
+    font-size: 16px;
+    opacity: 80%;
+    margin-bottom: 32px;
+    line-height: 26px;
+
 }
 
